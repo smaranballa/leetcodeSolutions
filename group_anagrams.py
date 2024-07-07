@@ -1,3 +1,7 @@
+"""
+    Create an order array and convert this array into tuple as a key in the hashmap
+"""
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         result = defaultdict(list)

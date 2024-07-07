@@ -1,3 +1,8 @@
+"""
+    Using hashset calculate the frequency of each element in the array and create another hashset from 
+    the values of the previous hashset to group the elements
+"""
+
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         freq = {}
@@ -12,7 +17,6 @@ class Solution:
         n = wow
         reachk = 0
         freqToItems = defaultdict(list)
-
 
         for key, value in freq.items():
             freqToItems[value].append(key)

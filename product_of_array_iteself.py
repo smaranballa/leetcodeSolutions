@@ -1,3 +1,7 @@
+"""
+    Calculate the Prefix product by iterating from left, Postfix product iterating from right
+"""
+
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         op = [1]*len(nums)
