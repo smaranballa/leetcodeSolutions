@@ -1,3 +1,7 @@
+"""
+    Take 2 maps and check the count of each element from those 2 maps
+"""
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         map1, map2 = {}, {}
